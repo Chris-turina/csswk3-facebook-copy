@@ -1,0 +1,25 @@
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #E9EBEE;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.content {
+  border: 1px solid #000;
+  width: 1000px;
+  min-width: 1000px;
+  height: 100%; }
+
+.header {
+  width: 100vw;
+  background-color: #3D5B96;
+  border: 1px solid #000; }
+
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #E9EBEE;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.content {
+  border: 1px solid #000;
+  width: 1000px;
+  min-width: 1000px;
+  height: 100%;
+}
