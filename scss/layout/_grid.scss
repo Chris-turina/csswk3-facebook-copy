@@ -1,0 +1,23 @@
+.content {
+@include grid-container;
+}
+
+.column-left {
+  @include grid-column(1, $custom-column-left);
+}
+
+.column-right {
+  @include grid-column(4, $custom-column-left);
+}
+
+.column-right-grid {
+  @include grid-container;
+}
+
+.column-right-side1 {
+  @include grid-column(3, $column-right-grid);
+}
+
+.column-right-side2 {
+  @include grid-column(2, $column-right-grid);
+}
