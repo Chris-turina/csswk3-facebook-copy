@@ -1,12 +1,17 @@
-.btn {
-  background-color: #48B536;
-  color: #fff;
-  border-radius: 5px;
-  border-color: #48B536;
-  box-shadow: 0px 0px 0px 0px;
-}
+// .btn {
+//   background-color: #48B536;
+//   color: #fff;
+//   border-radius: 5px;
+//   border-color: #48B536;
+//   box-shadow: 0px 0px 0px 0px;
+//   @include button;
+// }
+//
+// .log-in {
+//   background-color: #4469AF;
+//   border-color: 1px solid black;
+//   @include button;
+// }
 
-.log-in {
-  background-color: #4469AF;
-  border-color: 1px solid black;
+button {
 }

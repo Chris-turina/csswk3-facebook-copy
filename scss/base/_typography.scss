@@ -4,11 +4,15 @@ html, body {
 
 
 body {
-  background-color: #E9EBEE;
+  // background-color: #E9EBEE;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @include background(linear-gradient(darkorange,black) left repeat);
+// @include background(linear-gradient(red, green) left repeat, radial-gradient(red, orange));
+// @include background(url("/images/a.png"), linear-gradient(red, green), center no-repeat orange scroll);
+
 }
 
 .container {
@@ -37,9 +41,6 @@ body {
   @extend .white-padding;
 }
 
-.column-right-side2 p {
-  margin-right: -35px;
-}
 
 p {
   text-align: justify;
@@ -64,9 +65,8 @@ p {
 }
 
 .author {
-  background-color: white;
-  margin-top: 15px;
-  padding: 10px;
+  @extend .white-border;
+  font-size: 16px;
 }
 
 .community {
@@ -83,4 +83,13 @@ p {
 
 .photos-misc {
   @extend .white-border;
+}
+
+.split-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.split-header p:nth-child(2) {
+  color: blue;
 }
