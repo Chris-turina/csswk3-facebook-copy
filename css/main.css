@@ -1,7 +1,51 @@
+.btn {
+  background-color: #48B536;
+  color: #fff;
+  border-radius: 5px;
+  border-color: #48B536;
+  box-shadow: 0px 0px 0px 0px; }
+
+.log-in {
+  background-color: #4469AF;
+  border-color: 1px solid black; }
+
 .header {
   width: 100vw;
-  background-color: #3D5B96;
-  border: 1px solid #000; }
+  background-color: #3C5A96;
+  border: 1px solid #000;
+  display: flex;
+  color: #fff; }
+
+.logo {
+  width: 25%; }
+
+#logo {
+  width: 100%; }
+
+.header-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%; }
+
+.password p {
+  margin: 0;
+  padding: 0; }
+
+.white-padding, .column-right-side1 {
+  padding: 10px;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 3px; }
+
+.white-border, .community, .about, .people, .photos-misc {
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px; }
+
+.lightgrey-border, .republic {
+  border: 1px solid #E5E6E9;
+  border-radius: 3px; }
 
 .content::after {
   clear: both;
@@ -9,14 +53,14 @@
   display: block; }
 
 .column-left {
-  width: calc(20% - 24px);
+  width: calc(20% - 48px);
   float: left;
-  margin-left: 20px; }
+  margin-left: 40px; }
 
 .column-right {
-  width: calc(80% - 36px);
+  width: calc(80% - 72px);
   float: left;
-  margin-left: 20px; }
+  margin-left: 40px; }
 
 .column-right-grid::after {
   clear: both;
@@ -43,9 +87,15 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
 
+.container {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  display: flex; }
+
 .content {
-  border: 1px solid #000;
-  width: 1000px;
+  width: 1050px;
   min-width: 1000px;
   height: 100%; }
 
@@ -63,7 +113,40 @@ body {
 p {
   text-align: justify; }
 
+.plato p {
+  margin: 0px;
+  padding: 0px; }
+
+.plato p:nth-child(3) {
+  color: #90949B; }
+
+.republic {
+  padding: 10px; }
+
+.republic p:nth-child(2) {
+  display: inline; }
+
+.author {
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px; }
+
 * {
   box-sizing: border-box; }
+
+#plato {
+  border: 5px solid white;
+  width: 100%; }
+
+.top-pic {
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/top-pic.jpg); }
+
+#plato-two {
+  width: 10%; }
+
+.img-republic {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

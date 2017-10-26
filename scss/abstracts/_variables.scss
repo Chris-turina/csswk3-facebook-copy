@@ -1,6 +1,24 @@
+.white-padding {
+  padding: 10px;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 3px;
+}
+
+.white-border {
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.lightgrey-border {
+  border: 1px solid #E5E6E9;
+  border-radius: 3px;
+}
+
 $custom-column-left: (
   columns: 5,
-  gutter: 20px,
+  gutter: 40px,
 );
 
 $column-right-grid: (

@@ -11,10 +11,17 @@ body {
   justify-content: center;
 }
 
+.container {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  display: flex;
+}
+
 
 .content {
-  border: 1px solid #000;
-  width: 1000px;
+  width: 1050px;
   min-width: 1000px;
   height: 100%;
 }
@@ -27,11 +34,53 @@ body {
 
 .column-right-side1 {
   margin-left: 0;
+  @extend .white-padding;
 }
 
 .column-right-side2 p {
   margin-right: -35px;
 }
+
 p {
   text-align: justify;
+}
+
+.plato p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.plato p:nth-child(3) {
+  color: #90949B;
+}
+
+.republic {
+  @extend .lightgrey-border;
+  padding: 10px;
+}
+
+.republic p:nth-child(2) {
+  display: inline;
+}
+
+.author {
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.community {
+  @extend .white-border;
+}
+
+.about {
+  @extend .white-border;
+}
+
+.people {
+  @extend .white-border;
+}
+
+.photos-misc {
+  @extend .white-border;
 }

@@ -1,9 +1,30 @@
 .header {
   width: 100vw;
-  background-color: #3D5B96;
+  background-color: #3C5A96;
   border: 1px solid #000;
+  display: flex;
+  color: #fff;
 }
 
-.logo{
+.logo {
+  width: 25%;
+}
 
+#logo {
+  width: 100%;
+}
+
+.header-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
+.password {
+  // align-self: baseline;
+}
+.password p {
+  margin: 0;
+  padding: 0;
 }
